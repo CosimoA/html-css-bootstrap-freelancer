@@ -4,22 +4,22 @@
 
 /* DEBUG */
 
-*{
+/* *{
     border: 1px solid green;
-}
+} */
 
 /* .min-h100{
     min-height: 100px;
 } */
 
-.min-h300{
+/* .min-h300{
     min-height: 300px;
     background-color: pink;
-}
+} */
 
-.min-h500{
+/* .min-h500{
     min-height: 500px;
-}
+} */
 
 
 /* DEBUG */
@@ -42,6 +42,10 @@
     background-color: #1abc9c;
 }
 
+.bg-white{
+    background-color: white;
+}
+
 #banner{
     background-color: rgba(0, 0, 0, 0.250);
 }
@@ -54,6 +58,10 @@
     fill: grey;
 }
 
+.my-star-icon{
+    font-size: 40px;
+}
+
 
 
 /*----------TXT COLORS----------*/
@@ -64,6 +72,7 @@
 
 .txt-grey{
     color: #2c3e50;
+    fill: #2c3e50;
 }
 
 .txt-lightgrey{
@@ -76,16 +85,15 @@
 
 .txt-white{
     color: white;
+    fill: white;
 }
 
 /*----------BUTTONS----------*/
 
-.button{
-    border-radius: 25px;
-    border: 1px solid white;
-    padding: 1rem 2rem;
-    color: white;
-    margin-right: 1rem;
+.download-icon{
+    vertical-align: middle;
+    transform: translate(-12%, -12%);
+    margin: 0 0.25rem;
 }
 
 
@@ -95,12 +103,31 @@
 ************************************************/
 
 /*----------LAYOUT----------*/
+.barra{
+    display: inline;
+    height: 6px;
+    width: 6vw;
+    border-radius: 3px;
+}
 
 
 
+/*----------IMPUT----------*/
 
-/*----------TEXT----------*/
+input[type="text"], input[type="email"], input[type="tel"], [textarea] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    color: #2c3e50;
+    border-radius: 0;
+    margin: 0.5rem;
+}
 
+textarea{
+    border: none;
+    outline: none;
+    border-style: none;
+}
 
 
 
