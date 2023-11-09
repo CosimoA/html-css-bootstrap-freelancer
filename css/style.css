@@ -8,9 +8,9 @@
     border: 1px solid green;
 }
 
-.min-h100{
+/* .min-h100{
     min-height: 100px;
-}
+} */
 
 .min-h300{
     min-height: 300px;
@@ -46,6 +46,15 @@
     background-color: rgba(0, 0, 0, 0.250);
 }
 
+.my_icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    fill: grey;
+}
+
+
 
 /*----------TXT COLORS----------*/
 
@@ -63,6 +72,10 @@
 
 .txt-black{
     color: black;
+}
+
+.txt-white{
+    color: white;
 }
 
 /*----------BUTTONS----------*/
@@ -104,4 +117,8 @@
     height: 100%;
     width: 100%;
     background-color: rgb(16, 129, 114);
+}
+
+#banner{
+    padding: 2rem 0 2.5rem;
 }
