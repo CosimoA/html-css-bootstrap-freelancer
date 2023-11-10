@@ -29,6 +29,18 @@
     GENERAL STYLES
 *************************************************/
 
+/* ICONS */
+i{
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* LINKS */
+
+a{
+   text-decoration: none;
+}
+
 /*----------BACKGROUND COLORS----------*/
 
 .bg-grey{
