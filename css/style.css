@@ -29,9 +29,6 @@
     GENERAL STYLES
 *************************************************/
 
-
-
-
 /*----------BACKGROUND COLORS----------*/
 
 .bg-grey{
@@ -63,7 +60,6 @@
 }
 
 
-
 /*----------TXT COLORS----------*/
 
 .txt-verdeacqua {
@@ -88,6 +84,7 @@
     fill: white;
 }
 
+
 /*----------BUTTONS----------*/
 
 .download-icon{
@@ -95,7 +92,6 @@
     transform: translate(-12%, -12%);
     margin: 0 0.25rem;
 }
-
 
 
 /************************************************
@@ -111,10 +107,9 @@
 }
 
 
-
 /*----------IMPUT----------*/
 
-input[type="text"], input[type="email"], input[type="tel"], [textarea] {
+.form-control {
     border: none;
     outline: none;
     border-bottom: 2px solid grey;
@@ -122,18 +117,6 @@ input[type="text"], input[type="email"], input[type="tel"], [textarea] {
     border-radius: 0;
     margin: 0.5rem;
 }
-
-textarea{
-    border: none;
-    outline: none;
-    border-style: none;
-}
-
-
-
-/*----------IMG----------*/
-
-
 
 
 /************************************************
